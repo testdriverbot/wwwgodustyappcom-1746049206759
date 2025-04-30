@@ -1,0 +1,21 @@
+version: 4.2.29
+session: 68129dcf2a2c055834681c45
+steps:
+  - prompt: Click on the language icon for Danish.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-image
+        description: red and white flag icon in the center bottom of the webpage
+        action: click
+  - prompt: Assert that the website content changes to Danish.
+    commands:
+      - command: assert
+        expect: Velkommen til GoDusty
+  - prompt: Click on the language icon for German.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-image
+        description: black, red, and yellow flag icon in the center bottom of the webpage
+        action: click
