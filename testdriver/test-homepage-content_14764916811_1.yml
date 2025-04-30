@@ -1,0 +1,19 @@
+version: 4.2.29
+session: 68129dcf9741be1d433e995e
+steps:
+  - prompt: Scroll down the homepage.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll
+        direction: down
+        method: keyboard
+        amount: 300
+  - prompt: Scroll down the homepage.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll
+        direction: down
+        method: keyboard
+        amount: 300
